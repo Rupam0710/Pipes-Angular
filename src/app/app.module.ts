@@ -5,12 +5,16 @@ import { ShortenPipe } from './pipes/shorten.pipe';
 
 import { AppComponent } from './app.component';
 import { FilterPipe } from './pipes/filter.pipe';
+import { ReversePipe } from './pipes/reverse.pipe';
+import { SortPipe } from './pipes/sort.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShortenPipe,
     FilterPipe,
+    ReversePipe,
+    SortPipe,
   ],
   imports: [
     BrowserModule,
